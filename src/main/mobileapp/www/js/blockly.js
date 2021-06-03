@@ -1,0 +1,12 @@
+window.fixedTimeZone = true;
+window.timeZone = 'UTC';
+window.timeZoneOffset = 0;
+window.blockly = window.blockly || {};
+window.blockly.js = window.blockly.js || {};
+window.blockly.js.blockly = window.blockly.js.blockly || {};
+window.translations = window.translations || {};
+window.translations.localesKeys = ['en_us','pt_br'];
+window.translations.localesRef =  {"en*":"en_us","*":"pt_br","pt*":"pt_br"};
+document.write("<script src='js/blockly/auth/ChangePassword.blockly.js?e3858ce02693c16ac9ca8388ff344acc'></script>");
+document.write("<script src='js/blockly/auth/Home.blockly.js?9f788680dcdc696f94cebf4348f51b3e'></script>");
+document.write("<script src='js/blockly/auth/Login.blockly.js?cc551bda44726a6090736c4b9f7a9ee1'></script>");
