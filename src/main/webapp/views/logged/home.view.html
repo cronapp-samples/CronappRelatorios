@@ -34,7 +34,7 @@
     </div>
   </nav>
 </div><div ui-view="" id="main-view" tabindex="-1" role="main" class="container-fluid main-view main-view-horizontal">
-    <h1 class="component-holder text-left h3 title">{{'Home.view.Home' | translate}}</h1>
+    <h1 class="component-holder text-left h3 title">{{'Home.view.Home' | translate}}</h1><div class="component-holder ng-scope" data-component="crn-button" id="crn-button-614525"><button class="btn k-button btn-block btn-default" ng-click="cronapi.client('js.blockly.ChamarRelatorio.chamarRelatorio').names().run()" xattr-fullsize="btn-block" xattr-theme="btn-default" xattr-disabled=""><i class="fa fa-file-text"></i> <span>Chamar Relatório de Abastecimentos</span></button></div><div class="component-holder ng-scope" data-component="crn-textinput" id="crn-textinput-880626"><div class="form-group"><label for="input3427">Digite uma Placa</label><input type="text" mask="" mask-placeholder="" ng-required="false" ng-model="vars.input3427" class="form-control k-textbox" id="input3427" placeholder="ABC-1234"></div></div><div class="component-holder ng-scope" data-component="crn-cron-report-viewer" id="crn-cron-report-viewer-364374"><cron-report-viewer options="{&quot;reportCommand&quot;:&quot;cronapi.util.openReport('reports/AbastecimentosPorCarro.report', [{carro_placa: {{vars.input3427|js}}}], { height: undefined,  showScrollbar: false,  showToolbar: false,  $element: element })&quot;,&quot;showToolbar&quot;:false,&quot;showScrollbar&quot;:false}" ng-model="vars.reportView5606" class=""></cron-report-viewer></div>
 </div><div class="modal fade" id="modalPassword">
   <div class="modal-dialog">
     <div class="modal-content">
