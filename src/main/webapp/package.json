@@ -12,7 +12,7 @@
   "dependencies": {
     "cronapi-js": "^2.8.9",
     "cronapp-common-js": "^2.8.1",
-    "cronapp-framework-js": "^2.8.13",
+    "cronapp-framework-js": "^2.8.14",
     "cronapp-lib-js": "^2.8.1"
   }
 }
