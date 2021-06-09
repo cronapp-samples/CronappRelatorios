@@ -1,0 +1,93 @@
+{
+  "customId": "BuscarCarros",
+  "queryName": "BuscarCarros",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Carro",
+  "entityFullName": "app.entity.Carro",
+  "query": {
+    "isValid": true,
+    "rulesEntity": [
+      {
+        "entity": "Carro",
+        "alias": "c",
+        "namespace": "app.entity.Carro"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "c"
+      }
+    ],
+    "rulesGroupBy": [],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "not": false,
+      "valid": true,
+      "rules": []
+    }
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "placa": null,
+    "marca": null,
+    "modelo": null,
+    "ano": null,
+    "user": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "placa": null,
+    "marca": null,
+    "modelo": null,
+    "ano": null,
+    "user": null
+  },
+  "security": {
+    "id": null,
+    "placa": null,
+    "marca": null,
+    "modelo": null,
+    "ano": null,
+    "user": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query823932/",
+  "audit": false
+}
