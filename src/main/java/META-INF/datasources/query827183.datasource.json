@@ -1,0 +1,113 @@
+{
+  "customId": "DadosPostoValorTotal",
+  "queryName": "DadosPostoValorTotal",
+  "sourceType": "entityFullName",
+  "baseEntity": null,
+  "blockly": null,
+  "entitySimpleName": "Abastecimento",
+  "entityFullName": "app.entity.Abastecimento",
+  "query": {
+    "isValid": true,
+    "isEmpty": false,
+    "operationType": "object",
+    "type": "select",
+    "rulesEntity": [
+      {
+        "entity": "Abastecimento",
+        "namespace": "app.entity.Abastecimento",
+        "alias": "a"
+      }
+    ],
+    "rulesSelect": [
+      {
+        "func": "get",
+        "field": "a.posto.posto",
+        "type": "string"
+      },
+      {
+        "func": "get",
+        "field": "SUM(a.valor)",
+        "type": "string"
+      }
+    ],
+    "rulesGroupBy": [
+      {
+        "field": "a.posto.posto"
+      }
+    ],
+    "rulesHaving": [],
+    "rulesOrderBy": [],
+    "rules": {
+      "condition": "AND",
+      "rules": [],
+      "not": false,
+      "valid": true
+    },
+    "isRawSql": false,
+    "multiTenant": false,
+    "paginatorAutomatic": false,
+    "pagination": false
+  },
+  "queryParamsValues": [],
+  "verbs": {
+    "GET": true,
+    "GETAuthorities": null,
+    "POST": true,
+    "POSTAuthorities": null,
+    "PUT": true,
+    "PUTAuthorities": null,
+    "DELETE": true,
+    "DELETEAuthorities": null,
+    "FILTER": true,
+    "FILTERAuthorities": null,
+    "COUNT": true,
+    "COUNTAuthorities": null
+  },
+  "events": {
+    "beforeInsert": null,
+    "beforeUpdate": null,
+    "beforeDelete": null,
+    "afterInsert": null,
+    "afterUpdate": null,
+    "afterDelete": null,
+    "onNavigate": null,
+    "onError": null
+  },
+  "defaultValues": {
+    "id": null,
+    "carro": null,
+    "posto": null,
+    "data": null,
+    "valor": null,
+    "precolitro": null,
+    "km": null
+  },
+  "defaultValuesProperties": {
+    "id": null,
+    "carro": null,
+    "posto": null,
+    "data": null,
+    "valor": null,
+    "precolitro": null,
+    "km": null
+  },
+  "security": {
+    "id": null,
+    "carro": null,
+    "posto": null,
+    "data": null,
+    "valor": null,
+    "precolitro": null,
+    "km": null
+  },
+  "calcFields": {},
+  "calcFieldsSecurity": {},
+  "calcFieldsProperties": {},
+  "headers": {},
+  "errorHandles": {
+    "primaryKey": null,
+    "foreignKey": null
+  },
+  "serviceUrl": "api/cronapi/odata/v2/app/query827183/",
+  "audit": false
+}
